@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Alex',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -20,20 +20,20 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to sleep! ;)',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'https://opendata-download-metfcst.smhi.se/api/category/pmp3g/version/2/geotype/point/lon/16/lat/58/data.json', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '58.431',
+	defaultLongitude: '12.736',
 
 	// Autochange
 	autoChangeTheme: true,
